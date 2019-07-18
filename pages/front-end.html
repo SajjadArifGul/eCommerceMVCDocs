@@ -221,7 +221,7 @@
 		var url = $(this).attr("data-pagename");
 		$("#response-holder", ".response-container").html("");
 
-		$.ajax({ url: url})
+		$.ajax({ url: 'https://sajjadarifgul.github.io/eCommerceMVCDocs' + url })
 		.done(function (response) {
 			$("#response-holder", ".response-container").html(response);
 			$(".response-loader", ".response-container").hide();
@@ -242,13 +242,6 @@
 		    $("#wrapper").toggleClass("toggled");
 		});
 	</script>
-
-<!-- Visual Studio Browser Link -->
-<script type="application/json" id="__browserLink_initializationData">
-    {"appName":"Chrome","requestId":"44608d5cdb934b7ab1fa7abf8eb4e8c3"}
-</script>
-<script type="text/javascript" src="http://localhost:65383/5d4aaf6785be415a9d34bcfd5983a15e/browserLink" async="async"></script>
-<!-- End Browser Link -->
 
 </body>
 </html>
