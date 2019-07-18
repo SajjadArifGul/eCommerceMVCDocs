@@ -1,0 +1,53 @@
+﻿<h5>
+	Checkout Page
+</h5>
+<p>
+	After adding products in the cart, user can go to Checkout page from Cart Items popup. On this page we have three important tabs.
+	<br />
+	<i>URL:</i> <code>/tracking/{order-id}</code>
+	<ol>
+		<li>
+			<h6>Cart Products Tab</h6>
+			This tab list down all the product user has in the cart. User can change quantity or remove product from cart. It also shows final amount after flat delivery charges and subtracting discount.
+			<div class="alert alert-danger my-0" role="alert">
+				There must be a single product in the cart before accessing tabs on checkout page.
+			</div>
+			<img class="img-fluid img-thumbnail my-2" src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/pages-demo/checkout-page.png" /> 
+		</li>
+		<li>
+			<h6>Delivery Info Tab</h6>
+			After order items confirmation, user will need to add delivery information. If a user is already logged in, this information will be already populated.
+			<div class="alert alert-danger my-0" role="alert">
+				This information is necessary. User will not be allowed to place an order without this information.
+			</div>
+			<img class="img-fluid img-thumbnail my-2" src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/pages-demo/checkout-page-delivery-info-tab.png" />
+		</li>
+		<li>
+			<h6>Confirm Order Tab</h6>
+			After selecting order items and adding delivery information, user will be presnted with Payments Tab. There are multiple payment options on this tab.
+			<ol>
+				<li>
+					<strong>Pay via Credit Card</strong>
+					<br />
+					User can select this option to pay via credit card. In this option user will be presented with credit card information fields. When user submit the order, this information is sent to <code>Authorize.Net</code> payment API gateway to authorize and capture the payment. You can also disable this payment option from Configuration in Dashboard panel.
+					<div class="alert alert-danger my-0" role="alert">
+						Authorize .Net API keys must be configured before using this payment option. Check <a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/configurations.html">Configurations</a> for this.
+					</div>
+				</li>
+				<li>
+					<strong>Pay via PayPal</strong>
+					<br />
+					<div class="alert alert-danger my-0" role="alert">
+						This feature is disabled at the moment due to PayPal API changes.
+					</div>
+				</li>
+				<li>
+					<strong>Pay via Cash on Delivery</strong>
+					<br />
+					User can select this option to pay via cash when you deliver the product. You can also disable this payment option from Configuration in Dashboard panel.
+				</li>
+			</ol>
+			<img class="img-fluid img-thumbnail my-2" src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/pages-demo/checkout-page-payments-tab.png" />
+		</li>
+	</ol>
+</p>
