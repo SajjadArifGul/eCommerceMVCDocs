@@ -1,0 +1,254 @@
+﻿
+
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<title>eCommerce MVC Docs Dashboard</title>
+	<meta name="description">
+
+	<!--CSS custom styles-->
+	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/Site.css" rel="stylesheet" />
+
+	<!--jQuery-->
+	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/jquery-3.4.1.min.js"></script>
+
+	<!--Bootstrap-->
+	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/bootstrap.min.css" rel="stylesheet" />
+	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/bootstrap.min.js"></script>
+
+	<!--Fontawesome fonts-->
+	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/vendor/fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet" />
+
+</head>
+
+<body>
+	<div class="d-flex" id="wrapper">
+		<div class="bg-light border-right" id="sidebar-wrapper">
+			<div class="sidebar-heading bold">
+				eCommerce MVC Docs
+			</div>
+			<div class="list-group list-group-flush">
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/index.html">
+					<i class="mr-1 fas fa-home"></i>
+					Home
+				</a>
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/setup.html">
+					<i class="mr-1 fas fa-tools"></i>
+					Setup
+				</a>
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/code.html">
+					<i class="mr-1 fas fa-file-code"></i>
+					Code Structure
+				</a>
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/configurations.html">
+					<i class="mr-1 fas fa-sliders-h"></i>
+					Configurations
+				</a>
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-data.html">
+					<i class="mr-1 fas fa-database"></i>
+					Demo Data
+				</a>
+				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-video.html">
+					<i class="mr-1 fas fa-video"></i>
+					Demo Video
+				</a>
+				<div class="list-group-item list-group-item-action ">
+					<i class="mr-1 fas fa-file-alt"></i>
+					Pages
+					<ul class="mt-2 px-2" style="list-style:none">
+						<li class="p-2 my-1 border">
+							<i class="mr-1 fas fa-users"></i>
+							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/front-end.html">
+								Front End
+							</a>
+						</li>
+						<li class="p-2 my-1 border ">
+							<i class="mr-1 fas fa-user-shield"></i>
+							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/dashboard.html">
+								Dashboard
+							</a>
+						</li>
+					</ul>
+				</div>		
+			</div>
+		</div>
+
+		<div id="page-content-wrapper">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+				<button class="btn btn-primary" id="menu-toggle">
+					<i class="fas fa-bars"></i>
+				</button>
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+						<li class="nav-item text-nowrap">
+							<a class="nav-link" href="http://www.sajjadgul.com/projects-link/eCommerce-ASP-Net-MVC" target="_blank">
+								<i class="mr-1 fas fa-external-link-alt"></i>
+								Online Demo
+							</a>
+						</li>
+						<li class="nav-item text-nowrap">
+							<a class="nav-link" href="http://www.sajjadgul.com/projects-link/eCommerce-ASP-Net-MVC" target="_blank">
+								<i class="mr-1 fas fa-shopping-cart"></i>
+								Purchase eCommerce MVC
+							</a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+
+			<div class="container-fluid px-5 py-2">
+				
+
+<h3 class="display_4">
+	Front End Pages
+</h3>
+<hr />
+<p class="lead">
+	This section will explain eCommerce MVC's front end pages. Front end means the pages with which users with <code>User</code> role will interact.
+</p>
+<h3>
+	Pages
+</h3>
+<p>
+	Click on any of the following for details.
+</p>
+<div class="row">
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/home_page.html">
+			Home Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/search_products_page.html">
+			Search Products Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/product_details_page.html">
+			Product Details Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/order_tracking_page.html">
+			Order Tracking Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/invoice_print.html">
+			Invoice Print Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/about_us_page.html">
+			About Us Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/contact_us_page.html">
+			Contact Us Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/blog_page.html">
+			Blog Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/privacy_policy_page.html">
+			Privacy Policy Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/refund_policy_page.html">
+			Refund Policy Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/terms_conditions_page.html">
+			Terms and Conditions Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/cart_items_popup_page.html">
+			Cart Items Popup Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/checkout_page.html">
+			Checkout Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/user_profile_page.html">
+			User Profile Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/404_notfound_page.html">
+			404 Not Found Page
+		</button>
+	</div>
+	<div class="col col-3">
+		<button type="button" class="btn btn-primary btn-block my-1 datalink" data-pagename="/pages/partials/500_error_page.html">
+			500 Server Error Page
+		</button>
+	</div>
+</div>
+<hr />
+<div class="response-container">
+	<div class="d-flex justify-content-center">
+		<div class="response-loader spinner-border m-5" role="status" style="display:none">
+			<span class="sr-only">Loading...</span>
+		</div>
+	</div>
+	<div id="response-holder">
+
+	</div>
+</div>
+
+<script>
+	$(".datalink").click(function () {
+		$(".response-loader", ".response-container").show();
+
+		var url = $(this).attr("data-pagename");
+		$("#response-holder", ".response-container").html("");
+
+		$.ajax({ url: url})
+		.done(function (response) {
+			$("#response-holder", ".response-container").html(response);
+			$(".response-loader", ".response-container").hide();
+		})
+		.fail(function () {
+			alert("an error has occured.");
+			$(".response-loader", ".response-container").hide();
+		});
+	});
+</script>
+				<div class="text-center pb-5 mt-4" style="border-style: dashed none none none;"></div>
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript">
+		$("#menu-toggle").click(function (e) {
+		    e.preventDefault();
+		    $("#wrapper").toggleClass("toggled");
+		});
+	</script>
+
+<!-- Visual Studio Browser Link -->
+<script type="application/json" id="__browserLink_initializationData">
+    {"appName":"Chrome","requestId":"44608d5cdb934b7ab1fa7abf8eb4e8c3"}
+</script>
+<script type="text/javascript" src="http://localhost:65383/5d4aaf6785be415a9d34bcfd5983a15e/browserLink" async="async"></script>
+<!-- End Browser Link -->
+
+</body>
+</html>
