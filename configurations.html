@@ -1,287 +1,391 @@
-﻿
 
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
 
-	<title>eCommerce MVC Docs Dashboard</title>
-	<meta name="description">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!--CSS custom styles-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/Site.css" rel="stylesheet" />
+<title>  eCommerce MVC Docs Dashboard.Dashboard</title>
+<meta name="description">
+<meta property="og:title" content="  eCommerce MVC Docs Dashboard.Dashboard" />
+<meta property="og:description" />
+<meta property="og:url" />
+<meta property="og:image" />
+<meta property="og:type" content="website" />
 
-	<!--jQuery-->
-	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/jquery-3.4.1.min.js"></script>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="SajjadArifGul" />
+<meta name="twitter:creator" content="SajjadArifGul" />
 
-	<!--Bootstrap-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/bootstrap.min.css" rel="stylesheet" />
-	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/bootstrap.min.js"></script>
 
-	<!--Fontawesome fonts-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/vendor/fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet" />
+<meta name="robots" content="index, follow" />
+    <!--Fontawesome fonts-->
+<link href="content/lib/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&amp;display=swap" rel="stylesheet">
+
+<link href="bundles/content/css1be7.css?v=upzduM7nlPEA5KPqKzwOA-00fKHci8Du1LvaWfONal01" rel="stylesheet"/>
+
+<script src="bundles/content/scripts5d0d?v=jaUaSsFdP5XCAeehvIsDgWMLWa1LFBayhlCrLiCmqGk1"></script>
 
 </head>
+<body id="page-top">
+    <div id="wrapper">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="menuSidebar">
+    <li class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+            <i class="fas fa-store"></i>
+        </div>
+        <div class="sidebar-brand-text mx-2">
+            eCommerce MVC Docs
+        </div>
+    </li>
+    <hr class="sidebar-divider">
+    <li class="nav-item ">
+        <a class="nav-link" href="index.html">
+            <i class="mr-1 fas fa-home"></i>
+            <span>Home</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="setup.html">
+            <i class="mr-1 fas fa-tools"></i>
+            <span>Setup</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="code.html">
+            <i class="mr-1 fas fa-file-code"></i>
+            <span>Code Structure</span>
+        </a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="configurations.html">
+            <i class="mr-1 fas fa-sliders-h"></i>
+            <span>Configurations</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="faqs.html">
+            <i class="mr-1 fas fa-question-circle"></i>
+            <span>FAQs</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="demo-data.html">
+            <i class="mr-1 fas fa-database"></i>
+            <span>Demo Data</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="demo-video.html">
+            <i class="mr-1 fas fa-video"></i>
+            <span>Demo Video</span>
+        </a>
+    </li>
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+</ul>
 
-<body>
-	<div class="d-flex" id="wrapper">
-		<div class="bg-light border-right" id="sidebar-wrapper">
-			<div class="sidebar-heading bold">
-				eCommerce MVC Docs
-			</div>
-			<div class="list-group list-group-flush">
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/index.html">
-					<i class="mr-1 fas fa-home"></i>
-					Home
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/setup.html">
-					<i class="mr-1 fas fa-tools"></i>
-					Setup
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/code.html">
-					<i class="mr-1 fas fa-file-code"></i>
-					Code Structure
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/configurations.html">
-					<i class="mr-1 fas fa-sliders-h"></i>
-					Configurations
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-data.html">
-					<i class="mr-1 fas fa-database"></i>
-					Demo Data
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-video.html">
-					<i class="mr-1 fas fa-video"></i>
-					Demo Video
-				</a>
-				<div class="list-group-item list-group-item-action ">
-					<i class="mr-1 fas fa-file-alt"></i>
-					Pages
-					<ul class="mt-2 px-2" style="list-style:none">
-						<li class="p-2 my-1 border">
-							<i class="mr-1 fas fa-users"></i>
-							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/front-end.html">
-								Front End
-							</a>
-						</li>
-						<li class="p-2 my-1 border ">
-							<i class="mr-1 fas fa-user-shield"></i>
-							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/dashboard.html">
-								Dashboard
-							</a>
-						</li>
-					</ul>
-				</div>		
-			</div>
-		</div>
-
-		<div id="page-content-wrapper">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-				<button class="btn btn-primary" id="menu-toggle">
-					<i class="fas fa-bars"></i>
-				</button>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-						<li class="nav-item text-nowrap">
-							<a class="nav-link" href="http://ecommerce.aspdemos.com/" target="_blank">
-								<i class="mr-1 fas fa-external-link-alt"></i>
-								Online Demo
-							</a>
-						</li>
-						<li class="nav-item text-nowrap">
-							<a class="nav-link" href="https://codecanyon.net/item/ecommerce-website-project-in-asp-net-mvc-c-ecommerce-mvc/24217231" target="_blank">
-								<i class="mr-1 fas fa-shopping-cart"></i>
-								Purchase eCommerce MVC
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-			<div class="container-fluid px-5 py-2">
-				
-
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+        <i class="fa fa-bars"></i>
+    </button>
+    
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link text-black-50" href="https://ecommercemvc.com/en" target="_blank">
+                <i class="fas fa-eye fa-fw mx-2"></i>
+                Demo eCommerce MVC
+            </a>
+        </li>
+        <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link text-black-50" href="https://codecanyon.net/item/ecommerce-website-project-in-asp-net-mvc-c-ecommerce-mvc/24217231" target="_blank">
+                <i class="fas fa-file-download fa-fw mx-2"></i>
+                Download eCommerce MVC
+            </a>
+        </li>
+    </ul>
+</nav>
+                <div class="container-fluid">
+                    
 <h3 class="display-4">
-	Configurations
+    Configurations
 </h3>
-<hr />
+<hr>
 <p class="lead">
-	We implemented eCommerce MVC in such a way that anyone can configure it depending on their needs.
+    We implemented eCommerce MVC in such a way that anyone can configure it depending on their needs.
 </p>
-<h3>
-	Application Info and Social Links Configuration
-</h3>
 <p>
-	You can configure one time configurations such as Application Name, Company Address (shown at the bottom), Phone Number, Mobile Number, Facebook Page URL, Twitter URL, Twitter Username, WhatsApp Number, Instagram URL, YouTube URL and LinkedInURL in the <code>appSettings</code> node in <code>web.config</code> file. Social Links everywhere in the website uses configurations from this file.
-	<br>
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/app-info-configuration.png" class="my-2 rounded img-fluid img-thumbnail" alt="App Info Configurations">
+    eCommerce MVC allows you to update the following system configurations from <code>Configurations</code> screen in <code>Dashboard</code> panel. Only users with <code>Administrator</code> role will be able to change these configurations.
 </p>
 <hr />
 <h3>
-	System Configurations
+    Site Configurations
 </h3>
-<p>
-	eCommerce MVC allows you to update the following system configurations from <code>Configurations</code> screen in <code>Dashboard</code> panel. Only users with <code>Administrator</code> role will be able to change these configurations.
-	<ol>
-		<li>
-			<i>CurrencySymbol</i>
-			<br />
-			Default Value: <code>$</code>
-			<br />
-			Description: This currency symbol is shown with prices on website and invoices.
-			<br />
-			Available Options: <code>$</code>, <code>€</code>, etc
-			<div class="alert alert-danger mb-0" role="alert">
-				If you plan to use any other currency than US$ with Credit Card payment option, you will need to apply for enabling that currency payments from Authorize .Net payment gateway.
-			</div>
-		</li>
-		<li>
-			<i>PriceCurrencyPosition</i>
-			<br />
-			Default Value: <code>{price}{currency}</code>
-			<br />
-			Description: This configuration will set price and currency position with respect to each other accross the website. {price} will be replaced with the price value and {currency} will be replaced by configured currency symbol.	
-			<br />
-			Available Options: <code>{price}{currency}</code>, <code>{currency}{price}</code>
-		</li>
-		<li>
-			<i>EnableCreditCardPayment</i>
-			<br />
-			Default Value: <code>true</code>
-			<br />
-			Description: Set value to true or 1 to enable Credit card payments or set value to 0 or false to disable credit card payments.	
-			<br />
-			Available Options: <code>true</code>, <code>1</code> (to set as true), <code>false</code>, <code>0</code> (to set as false)
-		</li>
-		<li>
-			<i>EnableCashOnDeliveryMethod</i>
-			<br />
-			Default Value: <code>true</code>
-			<br />
-			Description: Set value to true or 1 to enable Cash on Delivery Method or set value to 0 or false to disable Cash on Delivery Method.	
-			<br />
-			Available Options: <code>true</code>, <code>1</code> (to set as true), <code>false</code>, <code>0</code> (to set as false)
-		</li>
-		<li>
-			<i>FlatDeliveryCharges</i>
-			<br />
-			Default Value: <code>0</code>
-			<br />
-			Description: Set the value for Delivery Charges. This is flat delivery charges rate. This will be add to the final amount and displayed to user on the Checkout page.
-			<br />
-			Available Options: <code>0</code> to any number.
-			<div class="alert alert-danger mb-0" role="alert">
-				eCommerce MVC does not support destination based Delivery charges. You can only configure fixed flat delivery charges.
-			</div>
-		</li>
-		<li>
-			<i>FrontendRecordsSizePerPage</i>
-			<br />
-			Default Value: <code>6</code>
-			<br />
-			Description: This is the number of products displayed on a single page to the users on home page or when a user search by product category.
-			<br />
-			Available Options: any number.
-			<div class="alert alert-danger mb-0" role="alert">
-				The higher this number is, the more time it will take to load the page due to product pictures. Keep the value modest between 6 to 12 preferably.
-			</div>
-		</li>
-		<li>
-			<i>FeaturedRecordsSizePerPage</i>
-			<br />
-			Default Value: <code>3</code>
-			<br />
-			Description: This is the number of <code>Featured</code> products displayed on a single page to the users on product details page.
-			<br />
-			Available Options: any number.
-			<div class="alert alert-danger mb-0" role="alert">
-				Ideally the value should be between 2 to 5. This is because the usual length of product description section will be less than the length of featured products section.
-			</div>
-		</li>
-		<li>
-			<i>DashboardRecordsSizePerPage</i>
-			<br />
-			Default Value: <code>10</code>
-			<br />
-			Description: This is the number of records displayed on listing pages of eCommerce MVC's Dashboard Panel.
-			<br />
-			Available Options: any number.
-			<div class="alert alert-danger mb-0" role="alert">
-				The higher this number is, the more time it will take to load the page. Keep the value modest between 5 to 20 preferably.
-			</div>
-		</li>
-		<li>
-			<i>Slider1</i>
-			<br />
-			Default Value: <code>site/slider/slider1.png</code>
-			<br />
-			Description: This is the first image in the slider on home page. You should preferably upload image of size 1200x300 pixels.
-			<br />
-			Available Options: Upload any picture.
-		</li>
-		<li>
-			<i>Slider2</i>
-			<br />
-			Default Value: <code>site/slider/slider2.png</code>
-			<br />
-			Description: This is the second image in the slider on home page. You should preferably upload image of size 1200x300 pixels.
-			<br />
-			Available Options: Upload any picture.
-		</li>
-		<li>
-			<i>Slider3</i>
-			<br />
-			Default Value: <code>site/slider/slider3.png</code>
-			<br />
-			Description: This is the third image in the slider on home page. You should preferably upload image of size 1200x300 pixels.
-			<br />
-			Available Options: Upload any picture.
-		</li>
-		<li>
-			<i>Slider4</i>
-			<br />
-			Default Value: <code>site/slider/slider4.png</code>
-			<br />
-			Description: This is the fourth image in the slider on home page. You should preferably upload image of size 1200x300 pixels.
-			<br />
-			Available Options: Upload any picture.
-		</li>
-	</ol>
-</p>
+<ul>
+    <li>
+        <h5 class="mt-2">
+            Application Name
+        </h5>
+        Default Value: <code>Your Store</code>
+        <br>
+        Description: This is the application name that will be used accross the site.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Application Intro
+        </h5>
+        Default Value: <code>eCommerce MVC is an extendable, adaptable eCommerce project developed with C# ASP .Net MVC framework. It has all the features a fully functional online shopping website requires.</code>
+        <br>
+        Description: Add description about application. This will be displayed in the footer of website.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Address Line 1
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Address Line 2 of your company. Displayed in Invoice and Site Footer.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Address Line 2
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Address Line 2 of your company. Displayed in Invoice and Site Footer.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Email
+        </h5>
+        Default Value: <code>contact@email.com</code>
+        <br>
+        Description: Add email address of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Mobile Number
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Mobile Number of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Phone Number
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Phone Number of your company.
+    </li>
+</ul>
 <hr />
 <h3>
-	Authorize .Net Payment API Gateway Configuration
+    Important Configurations
 </h3>
-<p>
-	eCommerce MVC provides Credit Card payment option. If you set the <code>EnableCreditCardPayment</code> to <code>true</code> in Systems Configuration, you must have to setup your account with Authorize .Net as described in the video and change the following keys in the <code>appSettings</code> node in <code>web.config</code> file. You can check the implementation of Authorize .Net payment API in <code>AuthorizeNetHelper</code> class in <code>Helpers</code> folder in main <code>Code</code> folder in eCommerceMVC module.
-	<iframe width="100%" height="550"
-		src="https://www.youtube.com/embed/TT1Ag6GDIh0"
-		frameborder="0"
-		allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-		allowfullscreen></iframe>
-	<div class="alert alert-danger" role="alert">
-		Set the value of <code>AuthorizeNet_SandBox</code> to <code>false</code> so eCommerce MVC can process real transactions. If you need to test Credit Card payments with Authorize .Net Sandbox account on eCommerce MVC, set value of <code>AuthorizeNet_SandBox</code> to <code>true</code>.
-	</div>
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/authorizenet-payment-configurations.png" class="my-2 rounded img-fluid img-thumbnail" alt="Authorize .Net Payment Gateway Configurations">
-</p>
+<ul>
+    <li>
+        <h5 class="mt-2">Currency Symbol</h5>
+        Default Value: <code>$</code>
+        <br>
+        Description: This currency symbol is shown with prices on website and invoices.
+        <br>
+        Available Options: <code>$</code>, <code>€</code>, etc
+        <div class="alert alert-danger mb-0" role="alert">
+            If you plan to use any other currency than US$ with Credit Card payment option, you will need to apply for enabling that currency payments from Authorize .Net payment gateway.
+        </div>
+    </li>
+    <li>
+        <h5 class="mt-2">Price Currency Position</h5>
+        Default Value: <code>{price}{currency}</code>
+        <br>
+        Description: This configuration will set price and currency position with respect to each other accross the website. {price} will be replaced with the price value and {currency} will be replaced by configured currency symbol.
+        <br>
+        Available Options: <code>{price}{currency}</code>, <code>{currency}{price}</code>
+    </li>
+    <li>
+        <h5 class="mt-2">Enable Credit Card Payment</h5>
+        Default Value: <code>true</code>
+        <br>
+        Description: Set value to true or 1 to enable Credit card payments or set value to 0 or false to disable credit card payments.
+        <br>
+        Available Options: <code>true</code>, <code>false</code>
+    </li>
+    <li>
+        <h5 class="mt-2">Enable Cash On Delivery Method</h5>
+        Default Value: <code>true</code>
+        <br>
+        Description: Set value to true or 1 to enable Cash on Delivery Method or set value to 0 or false to disable Cash on Delivery Method.
+        <br>
+        Available Options: <code>true</code>, <code>false</code>
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Enable PayPal Payment Method
+        </h5>
+        Default Value: <code>false</code>
+        <br>
+        Description: Set value to true to enable PayPal Payment Method or set value to false to disable PayPal Method. You should also supply PayPal client id in order for paypal payment gateway to work.
+        <br>
+        Available Options: <code>true</code>, <code>false</code>
+    </li>
+    <li>
+        <h5 class="mt-2">
+            PayPal Client ID
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add your PayPal client ID to use PayPal Payment Method. You should also enable PayPal Payment Method in order for paypal payment gateway to work.
+        <br>
+        Available Options: <code>true</code>, <code>false</code>
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Digits After Decimal Point
+        </h5>
+        Default Value: <code>2</code>
+        <br>
+        Description: Set the value to any number to display number of digits after decimal points in amounts accross the site.
+    </li>
+    <li>
+        <h5 class="mt-2">Flat Delivery Charges</h5>
+        Default Value: <code>0</code>
+        <br>
+        Description: Set the value for Delivery Charges. This is flat delivery charges rate. This will be add to the final amount and displayed to user on the Checkout page.
+        <br>
+        Available Options: <code>0</code> to any number.
+        <div class="alert alert-danger mb-0" role="alert">
+            eCommerce MVC does not support destination based Delivery charges. You can only configure fixed flat delivery charges.
+        </div>
+    </li>
+</ul>
+<hr />
+<h3>
+    Social Links Configurations
+</h3>
+<ul>
+    <li>
+        <h5 class="mt-2">
+            Facebook URL
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Facebook Page URL of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Instagram URL
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Instagram URL of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            LinkedIn URL
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add LinkedIn Page URL of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Twitter URL
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Twitter Page URL of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Twitter Username
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Twitter Username of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Whats App Number
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add Whats App Number of your company.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            YouTube URL
+        </h5>
+        Default Value: empty
+        <br>
+        Description: Add YouTube Page URL of your company.
+    </li>
+</ul>
+<hr />
+<h3>
+    Sliders Configurations
+</h3>
+<ul>
+    <li>
+        <h5 class="mt-2">
+            Slider 1
+        </h5>
+        Default Value: <code>Welcome to eCommerce MVC. eCommerce MVC is an extendable, adaptable eCommerce project developed with C# ASP .Net MVC framework. It has all the features a fully functional online shopping website requires.</code>
+        <br>
+        Description: This is the first slider that will be displayed on the home page. You should preferably upload image of size 1200x300 pixels.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Slider 2
+        </h5>
+        Default Value: <code>Welcome to eCommerce MVC. eCommerce MVC is an extendable, adaptable eCommerce project developed with C# ASP .Net MVC framework. It has all the features a fully functional online shopping website requires.</code>
+        <br>
+        Description: This is the second slider that will be displayed on the home page. You should preferably upload image of size 1200x300 pixels.
+    </li>
+    <li>
+        <h5 class="mt-2">
+            Slider 3
+        </h5>
+        Default Value: <code>Welcome to eCommerce MVC. eCommerce MVC is an extendable, adaptable eCommerce project developed with C# ASP .Net MVC framework. It has all the features a fully functional online shopping website requires.</code>
+        <br>
+        Description: This is the third slider that will be displayed on the home page. You should preferably upload image of size 1200x300 pixels.
+    </li>
+</ul>
 
+                </div>
+            </div>
+            <footer class="sticky-footer bg-white mt-5">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <div>
+                <i title="Copyrights" class="fas fa-copyright dont-transform text-warning"></i>
+                <a href="index.html">eCommerce MVC Docs</a> 2020. All rights reserved.
+            </div>
+            <div class="mt-2" dir="ltr">
+                Developed <i class="fas fa-heart text-danger" title="love"></i> by <a href="http://www.sajjadgul.com/" target="_blank">Sajjad Arif Gul</a>.
+                Template Designed by <a href="https://startbootstrap.com/themes/sb-admin-2/" target="_blank">Start Bootstrap</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+    </div>
 
-				<div class="text-center pb-5 mt-4" style="border-style: dashed none none none;"></div>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript">
-		$("#menu-toggle").click(function (e) {
-		    e.preventDefault();
-		    $("#wrapper").toggleClass("toggled");
-		});
-	</script>
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
+    
 </body>
 </html>

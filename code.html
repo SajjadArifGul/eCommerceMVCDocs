@@ -1,435 +1,818 @@
-﻿
 
-<!doctype html>
+
+<!DOCTYPE html>
 <html lang="en">
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
 
-	<title>eCommerce MVC Docs Dashboard</title>
-	<meta name="description">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-	<!--CSS custom styles-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/Site.css" rel="stylesheet" />
+<title>  eCommerce MVC Docs Dashboard.Dashboard</title>
+<meta name="description">
+<meta property="og:title" content="  eCommerce MVC Docs Dashboard.Dashboard" />
+<meta property="og:description" />
+<meta property="og:url" />
+<meta property="og:image" />
+<meta property="og:type" content="website" />
 
-	<!--jQuery-->
-	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/jquery-3.4.1.min.js"></script>
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="SajjadArifGul" />
+<meta name="twitter:creator" content="SajjadArifGul" />
 
-	<!--Bootstrap-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/bootstrap.min.css" rel="stylesheet" />
-	<script src="https://sajjadarifgul.github.io/eCommerceMVCDocs/Scripts/bootstrap.min.js"></script>
 
-	<!--Fontawesome fonts-->
-	<link href="https://sajjadarifgul.github.io/eCommerceMVCDocs/Content/vendor/fontawesome-free-5.9.0-web/css/all.min.css" rel="stylesheet" />
+<meta name="robots" content="index, follow" />
+    <!--Fontawesome fonts-->
+<link href="content/lib/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet" />
+
+<link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700;800&amp;display=swap" rel="stylesheet">
+
+<link href="bundles/content/css1be7.css?v=upzduM7nlPEA5KPqKzwOA-00fKHci8Du1LvaWfONal01" rel="stylesheet"/>
+
+<script src="bundles/content/scripts5d0d?v=jaUaSsFdP5XCAeehvIsDgWMLWa1LFBayhlCrLiCmqGk1"></script>
 
 </head>
+<body id="page-top">
+    <div id="wrapper">
+        <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="menuSidebar">
+    <li class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon">
+            <i class="fas fa-store"></i>
+        </div>
+        <div class="sidebar-brand-text mx-2">
+            eCommerce MVC Docs
+        </div>
+    </li>
+    <hr class="sidebar-divider">
+    <li class="nav-item ">
+        <a class="nav-link" href="index.html">
+            <i class="mr-1 fas fa-home"></i>
+            <span>Home</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="setup.html">
+            <i class="mr-1 fas fa-tools"></i>
+            <span>Setup</span>
+        </a>
+    </li>
+    <li class="nav-item active">
+        <a class="nav-link" href="code.html">
+            <i class="mr-1 fas fa-file-code"></i>
+            <span>Code Structure</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="configurations.html">
+            <i class="mr-1 fas fa-sliders-h"></i>
+            <span>Configurations</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="faqs.html">
+            <i class="mr-1 fas fa-question-circle"></i>
+            <span>FAQs</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="demo-data.html">
+            <i class="mr-1 fas fa-database"></i>
+            <span>Demo Data</span>
+        </a>
+    </li>
+    <li class="nav-item ">
+        <a class="nav-link" href="demo-video.html">
+            <i class="mr-1 fas fa-video"></i>
+            <span>Demo Video</span>
+        </a>
+    </li>
+    <!-- Sidebar Toggler (Sidebar) -->
+    <div class="text-center d-none d-md-inline">
+        <button class="rounded-circle border-0" id="sidebarToggle"></button>
+    </div>
+</ul>
 
-<body>
-	<div class="d-flex" id="wrapper">
-		<div class="bg-light border-right" id="sidebar-wrapper">
-			<div class="sidebar-heading bold">
-				eCommerce MVC Docs
-			</div>
-			<div class="list-group list-group-flush">
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/index.html">
-					<i class="mr-1 fas fa-home"></i>
-					Home
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/setup.html">
-					<i class="mr-1 fas fa-tools"></i>
-					Setup
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/code.html">
-					<i class="mr-1 fas fa-file-code"></i>
-					Code Structure
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/configurations.html">
-					<i class="mr-1 fas fa-sliders-h"></i>
-					Configurations
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-data.html">
-					<i class="mr-1 fas fa-database"></i>
-					Demo Data
-				</a>
-				<a class="list-group-item list-group-item-action " href="https://sajjadarifgul.github.io/eCommerceMVCDocs/demo-video.html">
-					<i class="mr-1 fas fa-video"></i>
-					Demo Video
-				</a>
-				<div class="list-group-item list-group-item-action ">
-					<i class="mr-1 fas fa-file-alt"></i>
-					Pages
-					<ul class="mt-2 px-2" style="list-style:none">
-						<li class="p-2 my-1 border">
-							<i class="mr-1 fas fa-users"></i>
-							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/front-end.html">
-								Front End
-							</a>
-						</li>
-						<li class="p-2 my-1 border ">
-							<i class="mr-1 fas fa-user-shield"></i>
-							<a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/pages/dashboard.html">
-								Dashboard
-							</a>
-						</li>
-					</ul>
-				</div>		
-			</div>
-		</div>
-
-		<div id="page-content-wrapper">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-				<button class="btn btn-primary" id="menu-toggle">
-					<i class="fas fa-bars"></i>
-				</button>
-
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-						<li class="nav-item text-nowrap">
-							<a class="nav-link" href="http://ecommerce.aspdemos.com/" target="_blank">
-								<i class="mr-1 fas fa-external-link-alt"></i>
-								Online Demo
-							</a>
-						</li>
-						<li class="nav-item text-nowrap">
-							<a class="nav-link" href="https://codecanyon.net/item/ecommerce-website-project-in-asp-net-mvc-c-ecommerce-mvc/24217231" target="_blank">
-								<i class="mr-1 fas fa-shopping-cart"></i>
-								Purchase eCommerce MVC
-							</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-			<div class="container-fluid px-5 py-2">
-				
-
+        <div id="content-wrapper" class="d-flex flex-column">
+            <div id="content">
+                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+        <i class="fa fa-bars"></i>
+    </button>
+    
+    <ul class="navbar-nav ml-auto">
+        <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link text-black-50" href="https://ecommercemvc.com/en" target="_blank">
+                <i class="fas fa-eye fa-fw mx-2"></i>
+                Demo eCommerce MVC
+            </a>
+        </li>
+        <li class="nav-item dropdown no-arrow mx-1">
+            <a class="nav-link text-black-50" href="https://codecanyon.net/item/ecommerce-website-project-in-asp-net-mvc-c-ecommerce-mvc/24217231" target="_blank">
+                <i class="fas fa-file-download fa-fw mx-2"></i>
+                Download eCommerce MVC
+            </a>
+        </li>
+    </ul>
+</nav>
+                <div class="container-fluid">
+                    
 <h3 class="display-4">
-	Code
+    Code
 </h3>
-<hr />
+<hr>
 <p class="lead">
-	eCommerce MVC is developed in modular fashion. In this section we will go into details of each module and inner workings of its structure.
+    eCommerce MVC is developed in modular fashion. In this section we will go into details of each module and inner workings of its structure.
 </p>
 <h3>
-	Project Structure
+    Project Structure
 </h3>
 <p>
-	There are five projects in main solution file of eCommerce MVC as follows.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/code-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="Project Structure">
+    There are five projects in main solution file of eCommerce MVC as follows.
+    <br />
+    <img src="Content/images/code-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="Project Structure">
 </p>
 <h5>
-	1) eCommerceMVC
+    1) eCommerceMVC.Web
 </h5>
 <p>
-	This is the main ASP .Net MVC Project in the solution. Users will be interacting with this module in their browsers. It has the following architecture.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/code-structure-main-project.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce Project Structure">
-	<br />
-	For Dashboard Panel, we have created a separate area named <code>Dashboard</code> which have separate routes, controllers, models and views.
+    This is the main ASP .Net MVC Project in the solution. Users will be interacting with this module in their browsers. It has the following architecture.
+    <br />
+    <img src="Content/images/code-structure-main-project.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce Project Structure">
+    <br>
+    For Dashboard Panel, we have created a separate area named
+    <code>Dashboard</code> which have separate routes, controllers, models and views.
 </p>
 <h6>
-	1.a) Controllers
+    1.a) Controllers
 </h6>
 <p>
-	We have Controllers in two places in the project. One is in main Controllers folder and another is Dashboard Area Controllers folder.
+    We have Controllers in two places in the project. One is in main Controllers folder and another is Dashboard Area Controllers folder.
 </p>
 <ul>
-	<li>
-		<i>Controllers</i>
-		<ul>
-			<li><code>AccountController.cs	   </code></li>
-			<li><code>CategoriesController.cs	   </code></li>
-			<li><code>ContentsController.cs	   </code></li>
-			<li><code>HomeController.cs</code></li>
-			<li><code>ManageController.cs</code></li>
-			<li><code>OrdersController.cs</code></li>
-			<li><code>ProductsController.cs	   </code></li>
-			<li><code>ProfileController.cs	   </code></li>
-			<li><code>SharedController.cs</code></li>
-		</ul>
-	</li>
-	<li>
-		<i>Dashboard > Controllers</i>
-		<ul>
-			<li><code>BaseController.cs</code></li>
-			<li><code>CategoriesController.cs</code></li>
-			<li><code>CommentsController.cs</code></li>
-			<li><code>ConfigurationsController.cs		</code></li>
-			<li><code>DashboardController.cs</code></li>
-			<li><code>OrdersController.cs</code></li>
-			<li><code>ProductsController.cs</code></li>
-			<li><code>RolesController.cs</code></li>
-			<li><code>UsersController.cs</code></li>
-		</ul>
-	</li>
+    <li>
+        <i>Controllers</i>
+        <ul>
+            <li>
+                <code>CartController.cs</code>
+            </li>
+            <li>
+                <code>CategoriesController.cs</code>
+            </li>
+            <li>
+                <code>CommentsController.cs</code>
+            </li>
+            <li>
+                <code>ContentsController.cs</code>
+            </li>
+            <li>
+                <code>HomeController.cs</code>
+            </li>
+            <li>
+                <code>OrdersController.cs</code>
+            </li>
+            <li>
+                <code>ProductsController.cs</code>
+            </li>
+            <li>
+                <code>PublicBaseController.cs</code>
+            </li>
+            <li>
+                <code>SharedController.cs</code>
+            </li>
+            <li>
+                <code>UsersController.cs</code>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <i>Dashboard &gt; Controllers</i>
+        <ul>
+            <li>
+                <code>CategoriesController.cs</code>
+            </li>
+            <li>
+                <code>CommentsController.cs</code>
+            </li>
+            <li>
+                <code>ConfigurationsController.cs</code>
+            </li>
+            <li>
+                <code>DashboardBaseController.cs</code>
+            </li>
+            <li>
+                <code>DashboardController.cs</code>
+            </li>
+            <li>
+                <code>LanguagesController.cs</code>
+            </li>
+            <li>
+                <code>OrdersController.cs</code>
+            </li>
+            <li>
+                <code>ProductsController.cs</code>
+            </li>
+            <li>
+                <code>PromosController.cs</code>
+            </li>
+            <li>
+                <code>RolesController.cs</code>
+            </li>
+            <li>
+                <code>UsersController.cs</code>
+            </li>
+        </ul>
+    </li>
 </ul>
 <div class="alert alert-danger" role="alert">
-	As most of the Dashboard controller's actions require authorization, we have used a custom authorize action filter. You will not find it on each controller becuase the controllers have been inherited from <code>BaseController</code>. You can change authorization mechanism in Base controller and it will be updated over other dashboard controllers.
+    As most of the Dashboard controller's actions require authorization, we have used a custom authorize action filter. You will not find it on each controller becuase the controllers have been inherited from
+    <code>BaseController</code>. You can change authorization mechanism in Base controller and it will be updated over other dashboard controllers.
+
 </div>
 <h6>
-	1.b) Views
+    1.b) Views
 </h6>
 <p>
-	Similar to Controllers, we have views in two Views folders. One is in main Views folder and the other is in Dashboard Area Views folder.
+    Similar to Controllers, we have views in two Views folders. One is in main Views folder and the other is in Dashboard Area Views folder.
 </p>
 <ul>
-	<li>
-		<i>Views</i>
-		<ul>
-			<li><code>Web.config</code></li>
-			<li><code>_ViewStart.cshtml</code></li>
-			<li>
-				Account
-				<ul>
-					<li><code>ConfirmEmail.cshtml</code></li>
-					<li><code>ExternalLoginConfirmation.cshtml</code></li>
-					<li><code>ExternalLoginFailure.cshtml</code></li>
-					<li><code>ForgotPassword.cshtml</code></li>
-					<li><code>ForgotPasswordConfirmation.cshtml</code></li>
-					<li><code>Login.cshtml</code></li>
-					<li><code>Register.cshtml</code></li>
-					<li><code>ResetPassword.cshtml</code></li>
-					<li><code>ResetPasswordConfirmation.cshtml</code></li>
-					<li><code>SendCode.cshtml </code></li>
-					<li><code>VerifyCode.cshtml</code></li>
-					<li><code>_ExternalLoginsListPartial.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Categories
-				<ul>
-					<li><code>_FeaturedCategoriesMenuItem.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Contents
-				<ul>
-					<li><code>AboutUs.cshtml </code></li>
-					<li><code>Blog.cshtml</code></li>
-					<li><code>ContactUs.cshtml</code></li>
-					<li><code>PrivacyPolicy.cshtml</code></li>
-					<li><code>RefundPolicy.cshtml</code></li>
-					<li><code>TermsConditions.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Home	 
-				<ul>
-					<li><code>Index.cshtml</code></li>
-					<li><code>Search.cshtml</code></li>
-					<li><code>_HomeSliders.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Manage
-				<ul>
-					<li><code>AddPhoneNumber.cshtml</code></li>
-					<li><code>ChangePassword.cshtml</code></li>
-					<li><code>Index.cshtml</code></li>
-					<li><code>ManageLogins.cshtml</code></li>
-					<li><code>SetPassword.cshtml</code></li>
-					<li><code>VerifyPhoneNumber.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Orders
-				<ul>
-					<li><code>Checkout.cshtml</code></li>
-					<li><code>Tracking.cshtml</code></li>
-					<li><code>_CartItems.cshtml</code></li>
-					<li><code>_CartProducts.cshtml</code></li>
-					<li><code>_Checkout.cshtml </code></li>
-					<li><code>_ConfirmOrder.cshtml</code></li>
-					<li><code>_DeliveryInfo.cshtml</code></li>
-					<li><code>_OrderDetailsForm.cshtml</code></li>
-					<li><code>_OrdersListing.cshtml</code></li>
-					<li><code>_PrintInvoice.cshtml</code></li>
-					<li><code>_TrackOrder.cshtml</code></li>
-					<li><code>_UserOrders.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Products
-				<ul>
-					<li><code>Details.cshtml</code></li>
-					<li><code>_FeaturedProducts.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Profile
-				<ul>
-					<li><code>Index.cshtml</code></li>
-					<li><code>WebLogin.cshtml</code></li>
-					<li><code>_ChangeAvatar.cshtml</code></li>
-					<li><code>_ChangePassword.cshtml</code></li>
-					<li><code>_Login.cshtml</code></li>
-					<li><code>_Register.cshtml</code></li>
-					<li><code>_UserDetails.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Shared 
-				<ul>
-					<li><code>Error.cshtml</code></li>
-					<li><code>Lockout.cshtml</code></li>
-					<li><code>_Footer.cshtml</code></li>
-					<li><code>_Layout.cshtml</code></li>
-					<li><code>_LoginPartial.cshtml</code></li>
-					<li><code>_TopMenu.cshtml</code></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-	<li>
-		<i>Dashboard > Views</i>
-		<ul>
-			<li><code>_ViewStart.cshtml</code></li>
-			<li>
-				Base
-				<ul>
-					<li><code>UnAuthorized.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Categories
-				<ul>
-					<li><code>Action.cshtml</code></li>
-					<li><code>Index.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Comments
-				<ul>
-					<li><code>Index.cshtml</code></li>
-					<li><code>_Comments.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-					<li><code>_UserComments.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Configurations
-				<ul>
-					<li><code>Index.cshtml</code></li>
-					<li><code>_Edit.cshtml</code></li>
-					<li><code>_HomeSlidersEdit.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Dashboard
-				<ul>
-					<li><code>Index.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Orders
-				<ul>
-					<li><code>Details.cshtml</code></li>
-					<li><code>Index.cshtml</code></li>
-					<li><code>_Details.cshtml</code></li>
-					<li><code>_EmailOrdersListing.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-					<li><code>_OrdersByEmail.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Products
-				<ul>
-					<li><code>Action.cshtml</code></li>
-					<li><code>Index.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Roles
-				<ul>
-					<li><code>Index.cshtml</code></li>
-					<li><code>RoleDetails.cshtml</code></li>
-					<li><code>_Listing.cshtml</code></li>
-					<li><code>_RoleDetails.cshtml</code></li>
-					<li><code>_RoleUsers.cshtml</code></li>
-					<li><code>_UserRoles.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Shared
-				<ul>
-					<li><code>_Layout.cshtml</code></li>
-				</ul>
-			</li>
-			<li>
-				Users
-				<ul>
-					<li><code> Index.cshtml</code></li>
-					<li><code> UserDetails.cshtml</code></li>
-					<li><code> _Listing.cshtml</code></li>
-					<li><code> _UserDetails.cshtml</code></li>
-				</ul>
-			</li>
-		</ul>
-	</li>
-</ul>
+    <li>
+        <i>Views</i>
+        <ul>
+            <li>
+                Cart
 
+                <ul>
+                    <li>
+                        <code>CartItems.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Checkout.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_CartItems.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_CartPopup.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Checkout.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ContactDetails.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_PaymentDetails.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ShippingInfo.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Categories
+
+                <ul>
+                    <li>
+                        <code>_CategoriesMenu.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_FeaturedCategoriesHomeSection.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ProductsByFeaturedCategories.Mobile.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ProductsByFeaturedCategories.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ProductsSlider.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Comments
+
+                <ul>
+                    <li>
+                        <code>_ProductComments.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserComments.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserCommentsListing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Contents
+
+                <ul>
+                    <li>
+                        <code>AboutUs.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Blog.cshtml</code>
+                    </li>
+                    <li>
+                        <code>ContactUs.cshtml</code>
+                    </li>
+                    <li>
+                        <code>PrivacyPolicy.cshtml</code>
+                    </li>
+                    <li>
+                        <code>RefundPolicy.cshtml</code>
+                    </li>
+                    <li>
+                        <code>TermsConditions.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Home
+
+                <ul>
+                    <li>
+                        SearchFilters
+
+                        <ul>
+                            <li>
+                                <code>_BrandsFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_CategoriesFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_ColorsFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_ListingFilters.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_PriceRangeFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_SearchInputFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_SizesFilter.cshtml</code>
+                            </li>
+                            <li>
+                                <code>_TagsFilter.cshtml</code>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <code>About.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Contact.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.Mobile.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Search.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_BannerSlider.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_HomeSliders.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Search.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_SearchFilters.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Orders
+
+                <ul>
+                    <li>
+                        <code>Tracking.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_OrderDetailsForm.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_OrdersListing.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_PrintInvoice.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_TrackOrder.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserOrders.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Products
+
+                <ul>
+                    <li>
+                        <code>Details.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_FeaturedProducts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_FeaturedProductsHomePage.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ProductComments.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ProductSpecifications.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_RecentProducts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_RelatedProducts.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Shared
+
+                <ul>
+                    <li>
+                        <code>Error.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Lockout.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Footer.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_FooterStylesScripts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Header.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_HeaderStylesScripts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Layout.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_LoginPartial.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_MetaTags.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ShareOptions.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Variables.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Users
+
+                <ul>
+                    <li>
+                        <code>ForgotPassword.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Login.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Register.cshtml</code>
+                    </li>
+                    <li>
+                        <code>ResetPassword.cshtml</code>
+                    </li>
+                    <li>
+                        <code>UserProfile.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ChangeAvatar.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ChangePassword.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ExternalLoginsListPartial.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ForgotPassword.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Login.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Register.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_ResetPassword.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserProfile.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <code>Web.config</code>
+            </li>
+            <li>
+                <code>_ViewStart.cshtml</code>
+            </li>
+        </ul>
+    </li>
+    <li>
+        <i>Dashboard &gt; Views</i>
+        <ul>
+            <li>
+                Categories
+                <ul>
+                    <li>
+                        <code>Action.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Comments
+                <ul>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Comments.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserComments.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Configurations
+                <ul>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Edit.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_HomeSlidersEdit.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Dashboard
+                <ul>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Languages
+                <ul>
+                    <li>
+                        <code>Action.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Resources.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Orders
+                <ul>
+                    <li>
+                        <code>Details.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Details.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserOrders.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserOrdersListing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Products
+                <ul>
+                    <li>
+                        <code>Action.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Promos
+                <ul>
+                    <li>
+                        <code>Action.cshtml</code>
+                    </li>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Roles
+                <ul>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>RoleDetails.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_RoleDetails.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_RoleUsers.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserRoles.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Shared
+                <ul>
+                    <li>
+                        <code>UnAuthorized.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Footer.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_FooterStylesScripts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_HeaderStylesScripts.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Layout.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_MetaTags.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_SidebarMenu.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_TopbarMenu.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                Users
+                <ul>
+                    <li>
+                        <code>Index.cshtml</code>
+                    </li>
+                    <li>
+                        <code>UserDetails.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_Listing.cshtml</code>
+                    </li>
+                    <li>
+                        <code>_UserDetails.cshtml</code>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <code>_ViewStart.cshtml</code>
+            </li>
+            <li>
+                <code>web.config</code>
+            </li>
+        </ul>
+    </li>
+</ul>
 <h6>
-	1.c) Styles, Scripts, Fonts and Other Files
+    1.c) Templates, Styles, Scripts, Fonts and Other Files
 </h6>
 <p>
-	All the files related to Styles, JavaScript/jQuery, SASS, Less, Fonts and Images exists in Main folder.
+    All the files related to Templates, Styles, JavaScript/jQuery, third party libraries, SASS, Less, Fonts and Images exists in <code>Content</code> folder.
 </p>
 <h6>1.d) ViewModels</h6>
 <p>
-	View models have their own separate ViewModels folder. Each file in ViewModels folder contain many ViewModel classes.
+    View models have their own separate ViewModels folder. Each file in ViewModels folder contain many ViewModel classes.
 </p>
 <h6>1.e) Error Pages</h6>
 <p>
-	eCommerce MVC also implements custom error pages which you can find in the main folder. Local development does not show these error pages as it is recommended to only be shown on the released environment. You can change this setting in web.config file.
-	Learn more about Error Pages in MVC in this <a href="http://benfoster.io/blog/aspnet-mvc-custom-error-pages" target="_blank">Link</a>.
+    eCommerce MVC also implements custom error pages which you can find in the main folder. Local development does not show these error pages as it is recommended to only be shown on the released environment. You can change this setting in web.config file. Learn more about Error Pages in MVC in this <a href="http://benfoster.io/blog/aspnet-mvc-custom-error-pages" target="_blank">Link</a>.
 </p>
 <h5>
-	2) eCommerce.Data
+    2) eCommerce.Data
 </h5>
 <p>
-	This module is a Class Library Project in the main solution. This is responsible for handling everything related to Database.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/ecommerce-data.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Data Project Structure">
-	<br />
-	eCommerce MVC uses Entity Framework Code First Migrations to create database. eCommerceContext class is derived from DbContext class of Entity Framework. Read more details of Database creation/setup etc in <a href="https://sajjadarifgul.github.io/eCommerceMVCDocs/setup.html">Setup</a> section.
+    This module is a Class Library Project in the main solution. This is responsible for handling everything related to Database.
+    <br />
+    <img src="Content/images/ecommerce-data-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Data Project Structure">
+    <br>
+    eCommerce MVC uses Entity Framework Code First Migrations to create database. eCommerceContext class is derived from DbContext class of Entity Framework. Read more details of Database creation/setup etc in
+    <a href="setup.html">Setup</a> section.
 </p>
 <h5>
-	3) eCommerce.Services
+    3) eCommerce.Services
 </h5>
 <p>
-	This module is also a Class Library Project which act as intermediary between eCommerce.Data database module and eCommerceMVC web module.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/ecommerce-services.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Services Project Structure">
+    This module is also a Class Library Project which act as intermediary between eCommerce.Data database module and eCommerceMVC.Web module.
+    <br />
+    <img src="Content/images/ecommerce-services-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Services Project Structure">
 </p>
 <h5>
-	4) eCommerce.Entities
+    4) eCommerce.Entities
 </h5>
 <p>
-	This module is also Class Library Project in the eCommerce MVC solution. This project contain all the business entities/classes. This is referenced in all other projects in the main solution.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/ecommerce-entities.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Entities Project Structure">
+    This module is also Class Library Project in the eCommerce MVC solution. This project contain all the business entities/classes. This is referenced in all other projects in the main solution.
+    <br />
+    <img src="Content/images/ecommerce-entities-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Entities Project Structure">
 </p>
 <h5>
-	5) eCommerce.Shared
+    5) eCommerce.Shared
 </h5>
 <p>
-	This module contain a extensions and enums that are shared accross all the other projects in the eCommerce MVC solution.
-	<img src="https://sajjadarifgul.github.io/eCommerceMVCDocs/images/ecommerce-shared.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Shared Project Structure">
+    This module contain a helpers, extensions, attributes and common enums that are shared accross all the other projects in the eCommerce MVC solution.
+    <br />
+    <img src="Content/images/ecommerce-shared-structure.png" class="my-2 rounded img-fluid img-thumbnail" alt="eCommerce.Shared Project Structure">
 </p>
+                </div>
+            </div>
+            <footer class="sticky-footer bg-white mt-5">
+    <div class="container my-auto">
+        <div class="copyright text-center my-auto">
+            <div>
+                <i title="Copyrights" class="fas fa-copyright dont-transform text-warning"></i>
+                <a href="index.html">eCommerce MVC Docs</a> 2020. All rights reserved.
+            </div>
+            <div class="mt-2" dir="ltr">
+                Developed <i class="fas fa-heart text-danger" title="love"></i> by <a href="http://www.sajjadgul.com/" target="_blank">Sajjad Arif Gul</a>.
+                Template Designed by <a href="https://startbootstrap.com/themes/sb-admin-2/" target="_blank">Start Bootstrap</a>.
+            </div>
+        </div>
+    </div>
+</footer>
+        </div>
+    </div>
 
-				<div class="text-center pb-5 mt-4" style="border-style: dashed none none none;"></div>
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript">
-		$("#menu-toggle").click(function (e) {
-		    e.preventDefault();
-		    $("#wrapper").toggleClass("toggled");
-		});
-	</script>
+    <a class="scroll-to-top rounded" href="#page-top">
+        <i class="fas fa-angle-up"></i>
+    </a>
 
+    
 </body>
 </html>
